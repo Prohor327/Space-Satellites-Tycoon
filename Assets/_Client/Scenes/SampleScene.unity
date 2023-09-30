@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0105518345, g: 0.0057576075, b: 0.0031885938, a: 1}
+  m_IndirectSpecularColor: {r: 0.010562655, g: 0.0057562916, b: 0.0031783222, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -486,9 +486,33 @@ PrefabInstance:
       propertyPath: spinParent
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11435818, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 3}
+--- !u!1 &89603498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 135778, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 3}
+  m_PrefabInstance: {fileID: 89603497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &89603499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89603498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bacd5647ad7a83546ad86db8818d6f44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spin: 1
+  spinParent: 0
+  speed: 10
+  clockwise: 1
+  direction: 1
+  directionChangeSpeed: 2
 --- !u!1 &168512278
 GameObject:
   m_ObjectHideFlags: 0
@@ -8796,7 +8820,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Earm 1000 B money
+  m_text: Earm 1 B money
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cbe30d98ae8daf14b83016c44de33adb, type: 2}
   m_sharedMaterial: {fileID: -3957773898865253849, guid: cbe30d98ae8daf14b83016c44de33adb, type: 2}
