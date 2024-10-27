@@ -29,5 +29,6 @@ public class sputnik : MonoBehaviour
     private void Update()
     {
         gameObject.transform.RotateAround(_pointPovorot.position, povorot, -_speed * Time.deltaTime);
+        Destroy(gameObject, 240f);
     }
 }
