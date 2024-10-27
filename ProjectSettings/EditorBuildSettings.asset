@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/_Client/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/_Client/Scenes/New Scene.unity
+    path: Assets/_Client/Scenes/Lose scene.unity
     guid: 2efbe4ee532177b46925438e88f544a8
   - enabled: 1
-    path: Assets/_Client/Scenes/New Scene 1.unity
+    path: Assets/_Client/Scenes/Win scene.unity
     guid: fd20009a903e47d4fbe7ed9cd4c4cbef
   m_configObjects: {}
